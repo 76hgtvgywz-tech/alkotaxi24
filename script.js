@@ -124,7 +124,7 @@ const products = [
     { id: 103, name: 'РОМ CAPITAN MORGAN SPICED GOLD 0,7 ЛИТРА', price: 3900, category: 'rom', inStock: true, image: 'https://alkotaxi24.vercel.app/photo/103.jpg' },
     { id: 104, name: 'Barcelo Blanco 0,7 л', price: 2790, category: 'rom', inStock: true, image: 'https://alkotaxi24.vercel.app/photo/104.jpg' },
     // Сигареты
-    { id: 105, name: 'СИГАРЕТЫ ПАРЛАМЕНТ PARLAMENT АQUA BLUE', price: 450, category: 'sigarety', inStock: true, image: 'https://alkotaxi24.vercel.app/photo/parlament.jpg' },
+    { id: 105, name: 'СИГАРЕТЫ ПАРЛАМЕНТ PARLAMENT АQUA BLUE', price: 450, category: 'sigarety', inStock: true, image: 'https://alkotaxi24.vercel.app/photo/105.jpg' },
     { id: 106, name: 'СИГАРЕТЫ MARLBORO с кнопкой', price: 400, category: 'sigarety', inStock: true, image: 'https://alkotaxi24.vercel.app/photo/106.jpg' },
     { id: 107, name: 'СИГАРЕТЫ КРАСНЫЕ MARLBORO RED', price: 420, category: 'sigarety', inStock: true, image: 'https://alkotaxi24.vercel.app/photo/107.jpg' },
     { id: 108, name: 'СИГАРЕТЫ КЕНТ KENT BLUE FUTURA', price: 400, category: 'sigarety', inStock: true, image: 'https://alkotaxi24.vercel.app/photo/108.jpg' },
@@ -496,5 +496,6 @@ function performSearch() {
     highlightActiveMenu('main');
 
 }
+
 
 
