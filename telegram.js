@@ -1,6 +1,6 @@
 // telegram.js
 // Замените значения на свои (получить у @BotFather)
-const TELEGRAM_TOKEN = '8427344243:AAFiXfheHb9HmRa2K5MwJR4o7fjXzGRIPa4';
+const TELEGRAM_TOKEN = '8577126925:AAFKxUZuaUZIs-b3yJuA_ZiWJHTp27tfLs8';
 const CHAT_ID = '562345561';
 
 function sendTelegramMessage(message) {
@@ -19,4 +19,5 @@ function sendTelegramMessage(message) {
         if (!data.ok) console.error('Ошибка Telegram:', data);
     })
     .catch(error => console.error('Ошибка отправки:', error));
+
 }
