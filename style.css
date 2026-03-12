@@ -608,7 +608,13 @@ footer {
     .category-header h1 {
         font-size: 32px;
     }
+    @media (max-width: 768px) {
+    .search-box {
+        display: none;
+    }
+}
     .seo-text .columns {
         grid-template-columns: 1fr;
     }
+
 }
