@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АлкоТакси 24/7 – доставка алкоголя в Москве круглосуточно</title>
+    <meta name="description" content="Более 500 наименований алкоголя и сигарет. Доставка 24/7 по Москве от 30 минут. Оплата при получении.">
+    <meta name="google-site-verification" content="cE8qHi9GZziyMF6VsSJ6dYxR_DtshT9TcKUsFlGMZYU" />
+    <link rel="canonical" href="https://alkotaxi24.vercel.app">
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=107712506', 'ym');
+
+    ym(107712506, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/107712506" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <!-- Стандартная иконка для всех браузеров (favicon.ico) -->
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+<!-- Иконки для современных браузеров (PNG) -->
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+<!-- Для устройств Apple (iPhone, iPad) -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <!-- Для Android / веб-приложений (манифест) -->
+<link rel="manifest" href="/site.webmanifest">
+    <!-- Шрифты и иконки -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Микроразметка JSON-LD (организация) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "АлкоТакси",
+        "url": "https://alkotaxi24.vercel.app",
+        "logo": "https://alkotaxi24.vercel.app/logo.png",
+        "description": "Круглосуточная доставка алкоголя в Москве",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Москва",
+            "streetAddress": "ул. Тверская, 1"
+        },
+        "telephone": "+7 (999) 786-39-67",
+        "openingHours": "Mo-Su 00:00-24:00"
+    }
+    </script>
+    
+    <!-- Основные стили -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container header-row">
+            <div class="logo">
+                <a href="#main" id="logo-link">АЛКОТАКСИ</a>
+                <span>доставка алкоголя 24/7 Москва</span>
+            </div>
+            <a href="tel:+79997863967" class="phone"><i class="fas fa-phone-alt"></i> +7 (999) 786-39-67</a>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Поиск среди товаров...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="cart-icon">
+                <a href="#" id="cart-toggle"><i class="fas fa-shopping-cart"></i><span class="cart-count" id="cart-count">0</span></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Меню категорий (под шапкой) -->
+    <nav class="main-menu">
+        <div class="container">
+            <ul class="menu-list" id="menu">
+                <li><a href="#main" data-page="main">Главная</a></li>
+                <li><a href="#vermut" data-page="vermut">Вермут</a></li>
+                <li><a href="#vino" data-page="vino">Вино</a></li>
+                <li><a href="#viski" data-page="viski">Виски</a></li>
+                <li><a href="#vodka" data-page="vodka">Водка</a></li>
+                <li><a href="#dzhin" data-page="dzhin">Джин</a></li>
+                <li><a href="#konyak" data-page="konyak">Коньяк</a></li>
+                <li><a href="#liker" data-page="liker">Ликёр</a></li>
+                <li><a href="#pivo" data-page="pivo">Пиво</a></li>
+                <li><a href="#rom" data-page="rom">Ром</a></li>
+                <li><a href="#sigarety" data-page="sigarety">Сигареты</a></li>
+                <li><a href="#tekila" data-page="tekila">Текила</a></li>
+                <li><a href="#shampanskoe" data-page="shampanskoe">Шампанское</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Основной блок: сюда будут загружаться страницы -->
+    <main class="container" id="main-content">
+        <!-- Главная страница (заполнена по умолчанию) -->
+        <div id="page-main" class="page active-page">
+            <div class="category-header">
+                <h1>АлкоТакси Москва 24/7</h1>
+            </div>
+            <!-- Сетка популярных товаров (хиты) -->
+            <h2 class="section-title">Хиты продаж</h2>
+            <div class="product-grid" id="main-products"></div>
+            <!-- Большой SEO-текст с картинками -->
+            <div class="seo-text" id="main-seo"></div>
+            <!-- Форма быстрой заявки (Telegram) -->
+            <div class="order-form-block" id="order-block-main">
+                <h3>Оставить заявку</h3>
+                <form class="quick-order-form" data-page="main">
+                    <input type="text" placeholder="Ваше имя" class="quick-name" required>
+                    <input type="tel" placeholder="Телефон" class="quick-phone" required>
+                    <button type="submit">Отправить заявку</button>
+                </form>
+                <div class="order-message"></div>
+            </div>
+        </div>
+        <!-- Остальные страницы будут созданы динамически через JS -->
+    </main>
+
+    <!-- Панель корзины -->
+    <div class="cart-panel" id="cart-panel">
+        <div class="cart-header">
+            <h3>Корзина</h3>
+            <button class="close-cart" id="close-cart">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items"></div>
+        <div class="cart-total" id="cart-total">Итого: 0 ₽</div>
+        <form class="cart-form" id="order-form">
+            <input type="text" placeholder="Ваше имя" id="order-name" required>
+            <input type="tel" placeholder="Телефон" id="order-phone" required>
+            <input type="text" placeholder="Адрес доставки" id="order-address" required>
+            <textarea placeholder="Комментарий (необязательно)" id="order-comment" rows="2"></textarea>
+            <button type="submit" id="submit-order">Оформить заказ</button>
+        </form>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>АлкоТакси</h4>
+                    <ul>
+                        <li><a href="#main">О нас</a></li>
+                        <li><a href="#main">Доставка и оплата</a></li>
+                        <li><a href="#main">Контакты</a></li>
+                        <li><a href="#main">Политика конфиденциальности</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Каталог</h4>
+                    <ul>
+                        <li><a href="#viski">Виски</a></li>
+                        <li><a href="#vino">Вино</a></li>
+                        <li><a href="#vodka">Водка</a></li>
+                        <li><a href="#shampanskoe">Шампанское</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +7 (999) 786-39-67</li>
+                        <li><i class="fas fa-envelope"></i> info@alkotaxi24.vercel.app</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Москва, ул. Тверская, 1</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2025 АлкоТакси. Доставка алкоголя 24/7 в Москве. Все права защищены. 18+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Подключаем скрипты -->
+    <script src="text.js"></script>
+    <script src="script.js"></script>    
+    <script src="telegram.js"></script>
+</body>
+
+</html>
+
+
